@@ -9,19 +9,16 @@ Information("akshay", "Mumbai");
 Information("saroj", "Pune");
 Information("dhumal", "selu");*/
 
-
-function sum (english,maths,science)
-{
-
-    var s = english+maths+science;
-return s}
-
-function percentage (total)
-{
-var per =total/300*100;
-document.write(per +"%");
+function sum(english, maths, science) {
+  var s = english + maths + science;
+  return s;
 }
 
-var p = sum(78,78,89);
+function percentage(total) {
+  var per = (total / 300) * 100;
+  document.write(per + "%");
+}
+
+var p = sum(78, 78, 89);
 
 percentage(p);
