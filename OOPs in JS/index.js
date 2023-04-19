@@ -14,24 +14,53 @@
 // let ao2 = new A();
 
 
-class A {
+// class A {
 
-    hello()
-    {
-        document.write("HEllo im method");
-    }
+//     hello()
+//     {
+//         document.write("HEllo im method");
+//     }
 
-    constructor(x, y)
+//     constructor(x, y)
 
-          {
+//           {
 
-             let z = x + y;
-               document.write("Hello im a contructor " + z + "<br>");
+//              let z = x + y;
+//                document.write("Hello im a contructor " + z + "<br>");
 
-          }
+//           }
 
+
+// }
+
+// let obj = new A(2,4);
+// obj.hello();
+
+class B
+
+{
+ static hello()
+
+{
+document.write("   b  Hello im a method <br>");
 
 }
 
-let obj = new A(2,4);
-obj.hello();
+}
+
+
+
+
+class A
+
+{
+ static hello()
+
+{
+document.write("Hello im a method <br>");
+
+}
+
+}
+A.hello();
+B.hello();
