@@ -1,4 +1,4 @@
-import {n,show,myclass} from "./main.js";
+import {n,show as s,myclass} from "./main.js";
 // import {show} from "./main.js";
 // import{myclass} from"./main.js";
 
@@ -6,6 +6,11 @@ import {n,show,myclass} from "./main.js";
 
 document.body.innerHTML=("hello ..." +n);
 
-show("Ikkar");
+
+// if you want to call function by any shortcut key then u have to write this Ex.[show as S] =
+// s("ikkar")
+
+
+s("Ikkar");
 
 let ao=new myclass();
