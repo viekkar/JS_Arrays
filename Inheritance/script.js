@@ -26,5 +26,5 @@ class A {
   bo.showij(10, 20);
   bo.showk(30);
   bo.sum();
-  
+
 
